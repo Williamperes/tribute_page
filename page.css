@@ -8,7 +8,7 @@ body{
     border-radius: 15px;
     box-shadow: 18px 5px 5px Indigo;
     margin: 24px auto;
-    margin
+    
     
   }
   .container_btn{
@@ -40,6 +40,10 @@ body{
     background-color: gold;
     border-radius: 4%;
     text-decoration:underline;
+    position: fixed;
+    top: 10px;
+    left:70px;
+    cursor:pointer;
   }
    
   
@@ -67,7 +71,7 @@ body{
     padding: 10px;
     width:70%;
     height:60%;
-    margin: auto;
+    margin:auto;
     display:flex;
   }
   
@@ -105,11 +109,74 @@ body{
   ul {
     display: inline-block;
     text-align:left;
-    property: text-shadow;
+    transition-property: text-shadow;
     font-family: 'Dosis', sans-serif;
   }
   
   .footer {
     font-family: 'Nova Script', cursive;
   }
-  
+
+  @media(max-width:432px) {
+
+    aside {
+      display:block;
+      width:50%;
+      height:auto;
+      margin-right:20px;
+    }
+
+    aside img{
+      display:block;
+      max-width:80%;
+      height:auto;
+    }
+    .header_title{
+      font-size:50px;
+    }
+    .header_subtitle {
+      font-size:19px;
+      padding-top: 10px;
+    }
+     li {
+      font-size:14px;
+    }
+   .container img {
+     width:100%;
+     margin-right:40px;
+     height:auto;
+     display:flex;
+     
+   }
+   .container .text-center{
+    font-size:16px;
+   }
+
+
+   button {
+    display:block;
+    margin-right:40px;
+    overflow: hidden;
+    cursor:pointer;
+    
+   }
+    .container {
+      width:auto;
+      height:40%;
+      margin-top: 40px;
+      margin-right:60px;
+      padding: 10px 10px;
+  }
+  .events-title{
+    font-size: 20px;
+    font-weight: bold;
+  }
+ 
+  .events{
+    width:auto;
+    height:auto;
+    font-size:10px;
+    margin-right:20px;
+  }
+
+  }
